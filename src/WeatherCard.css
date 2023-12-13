@@ -1,0 +1,21 @@
+/* WeatherCard.css */
+.weather-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .weather-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .weather-card > div {
+    margin-bottom: 10px;
+  }
+  
+  .weather-card button {
+    margin-top: 10px;
+  }
+  

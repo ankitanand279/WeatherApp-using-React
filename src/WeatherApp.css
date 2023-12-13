@@ -1,0 +1,32 @@
+/* WeatherApp.css */
+.weather-app {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    height: 1000vh;
+    background-size:contain;
+    background-image: url('https://media.istockphoto.com/id/1079516324/photo/sun-rays-illuminating-an-island-in-a-frozen-lake-on-west-coast-of-sweden.jpg?s=612x612&w=0&k=20&c=Gabmh19vSb0Mby4BuiIvBG2ay1hacSNEUwKTMYfQF0g=');
+  }
+  
+  /* LocationForm.css */
+  .location-form {
+    margin-bottom: 20px;
+  }
+  
+  /* WeatherCard.css */
+  .weather-card {
+    border: 2px solid #ccc;
+    color: rgb(7, 6, 6);
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color:rgba(240, 240, 240, 0.4);
+    box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
+    
+  }
+  
+  .weather-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
